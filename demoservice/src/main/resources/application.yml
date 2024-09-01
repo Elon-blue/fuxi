@@ -1,0 +1,13 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: demoservice
+eureka:
+  client:
+    service-url:
+      #表示是否将自己注册到Eureka Server，默认为true。由于当前应用不是Eureka Server，故而设置为ture
+      register-with-eureka: true
+      #表示是否从Eureka Server获取注册信息，默认为true。因为这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设置为false,但是我设置true，不影响
+      fetch-registry: true
+      defaultZone: http://localhost:8761/eureka/
