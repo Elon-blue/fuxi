@@ -20,5 +20,6 @@ public class DemoServiceConsumerController {
         demoRequest.setMsg("This Demo Rquest.Msg From DemoClientController");
         Result result = demoServiceClientConsumer.sayMsg(demoRequest);
         return "you are visiting demoClientConsumer.Call DemoService:{"+result.getMessage()+"}";
+
     }
 }
