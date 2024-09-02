@@ -5,6 +5,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka</module>
+        <module>apicenter</module>
+        <module>democlientconsumer</module>
+        <module>demoservice</module>
+        <module>springcloud-config</module>
     </modules>
 
     <parent>

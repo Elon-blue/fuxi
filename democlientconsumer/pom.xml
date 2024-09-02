@@ -10,8 +10,8 @@
 
     <groupId>com.elon</groupId>
     <artifactId>democlientconsumer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>democlientconsumer</name>
+    <version>1.0.0</version>
+    <name>demo-client-consumer</name>
     <description>demo client consumer</description>
 
     <properties>
